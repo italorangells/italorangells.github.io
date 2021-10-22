@@ -1,0 +1,105 @@
+* { /*Reset - usado para configurações no documento como um todo - neste caso, retirar as margens e o padding de todas as tags.*/
+    margin: 0;  
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(11,23,89,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', 'cursive';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+        
+}
+
+.links-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* Cheguei neste resultado com as tags que eu já conhecia. Na versão do Thiago, ele introduz algumas tags novas que facilitam o trabalho.
+
+.item-list {   Esta classe foi criada e copiada em cada 'li' da lista.
+    background-color: white;
+    box-shadow: 0 0 20px white;
+    border-radius: 5px;
+    color: rgb(54,77,204);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding: 5%;
+    margin-bottom: 10px;
+    
+}
+
+p {    Em vez de usar parágrafo, Thiago usou a tag <span> que serve para modificar algum trecho específico que esteja dentro de outra tag maior.
+    color: rgb(163, 162, 162);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+*/
+
+
