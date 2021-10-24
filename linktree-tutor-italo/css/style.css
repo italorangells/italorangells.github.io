@@ -11,9 +11,6 @@ body {
     background-size: cover;
     background: url(../img/bg1.jpg);
     background-attachment: fixed;
-    
-    /* background: rgb(41,1,142);
-    background: linear-gradient(180deg, rgba(41,1,142,1) 0%, rgba(18,9,85,1) 100%);*/
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     
@@ -39,7 +36,7 @@ h1 {
 h2 {
     font-weight: 100;
     font-size: 18px;
-    color: #ebe6bd;
+    color: #d8d7d1;
     padding: 0 15px;
 }
 
