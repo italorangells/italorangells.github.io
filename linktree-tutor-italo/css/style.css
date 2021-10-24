@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background: url(../img/bg1.jpg);
+    background-attachment: fixed;
+    
+    /* background: rgb(41,1,142);
+    background: linear-gradient(180deg, rgba(41,1,142,1) 0%, rgba(18,9,85,1) 100%);*/
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    
+}
+
+.profile-picture {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
+
+.profile {
+    margin: 30px 0 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px 0 0 0;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 18px;
+    color: #ebe6bd;
+    padding: 0 15px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #e1bb05;
+}
+
+
+.links-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links-list li {
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.322);
+}
+
+.links-list li a {
+    display: block;
+    padding: 15px 20px;
+    background: rgb(242,223,7);
+    background: linear-gradient(180deg, rgba(242,223,7,1) 0%, rgba(199,130,3,1) 100%);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(18 29 47);     
+}
+
+.links-list li a span {
+    display: block;
+    font-weight: lighter;
+    color:  #710101;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+
+
