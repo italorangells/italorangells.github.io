@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0px 179.6px;
+    box-shadow: 0 0 3px black;
+    background: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background: black; */
+    padding: 8px 0px 14px 0px;
+}
+
+.logo img {
+    width: 125px;
+    margin-top: 2px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    position: relative;
+
+}
+
+.menu li a {
+    padding:  19px 12px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14.6667px;
+    display: block;
+    letter-spacing: 0.15px;
+}
+
+.menu li:hover {
+    background: green;
+}
+
+.menu li:hover > .submenu, 
+.submenu li:hover > .submenu  {
+    display: block;
+}
+
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: green;
+    list-style: none;
+    min-width: 250px;
+}
+
+.submenu li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.submenu li:hover {
+    background: rgb(0, 75, 0);
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}
+
+.social-media {
+    width: 50px;
+    display: block;
+}
+
+
+
+
+
+/* 
+
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    padding: 38px 19px;
+    text-transform: uppercase;
+    font-size: 14.6667px;
+}
+
+.menu li:hover {
+  background: grey;
+}
+
+.menu li:hover .submenu {
+    display: block;
+  }
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    background: black;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.menu li {
+    position: relative;
+} */
+
+/*
+.submenu li {
+    display: none;
+}
+
+.menu li a:hover {
+    background: grey;
+    display: block;
+    position: absolute;
+} */
