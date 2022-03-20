@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    min-height: 300px;
+    display: block;
+    text-align: center;
+    padding: 0 150px;
+    background-image: url(https://wallpapercave.com/wp/wp2742875.jpg);   
+}
+
+
+.logo h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 900;
+    letter-spacing: -15px;
+  
+}
+
+.logo h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 54px;
+    margin-left: 63px;
+    margin-top: -20px;
+    font-weight: 100;
+}
+
+.menu {
+    display: flex;
+    background: black;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'League Gothic', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+.menu li span {
+    font-size: 10px;
+    color: #af83da;
+    padding-left: 5px;  
+}
+
+.menu li:hover {
+    background: #313131;
+}
+
+.menu li a:hover span {
+    color: white; 
+}
+
+
+.submenu {
+    display: none;
+    position: absolute; 
+   
+}
+
+.submenu li{
+    position: relative;
+}
+
+.submenu li a {
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 0.3px;
+}
+
+.menu li:hover > .submenu {
+    display: flex;
+    background: #313131;
+    top: 46px;
+}
+
+.submenu li a:hover {
+    color: #d8bff1;
+}
+
+.submenu li:hover > .submenu {
+    display: block;
+    top: 0;
+    left: 100%;
+    min-width: 100px;
+}
+
+
+
+
+
+.submenu ul {
+    list-style: none;
+}
+
+
+
+
+
+/* .menu li:hover .submenu-lado-a-lado {
+    display: block;
+
+} */
+
+
+
+
+
